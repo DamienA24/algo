@@ -1,0 +1,17 @@
+{
+  "name": "algo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DamienA24/algo.git",
+  "author": "alves.d24@laposte.net",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^9.1.3"
+  },
+  "scripts": {
+    "test": "mocha ./test/*.js",
+    "zeroBinary": "node ./algo/zeroBinary.js",
+    "moneyBack": "node ./algo/moneyBack.js"
+  },
+  "type": "module"
+}
